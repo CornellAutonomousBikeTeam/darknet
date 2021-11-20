@@ -64,3 +64,17 @@ uselib
 uselib_track
 darknet
 vcpkg/
+
+# you need to donload this from the link in the readme
+yolov4.conv.137
+
+# converting coco to darknet
+rawtrain.txt
+rawval.txt
+selectedtrain.txt
+selectedval.txt
+trainLong.txt
+valLong.txt
+
+# results
+results/
