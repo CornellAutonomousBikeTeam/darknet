@@ -12,6 +12,8 @@
 *.pyc
 mnist/
 data/
+!data/train.txt
+!data/val.txt
 caffe/
 grasp/
 images/
@@ -28,7 +30,6 @@ ninja.zip
 vcpkg_installed/
 !build/darknet/YoloWrapper.cs
 .fuse*
-*.weights
 build/*.cmake
 build/*.ninja
 build/*.txt
@@ -71,10 +72,6 @@ yolov4.conv.137
 # converting coco to darknet
 rawtrain.txt
 rawval.txt
-selectedtrain.txt
-selectedval.txt
-trainLong.txt
-valLong.txt
 
 # results
 results/
